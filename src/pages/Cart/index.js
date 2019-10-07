@@ -68,7 +68,7 @@ export default function Cart() {
                   </button>
                   <input type="number" readOnly value={product.amount} />
                   <button type="button" onClick={() => increment(product)}>
-                    <MdAddCircleOutline size={20} color="#7159c1" />s
+                    <MdAddCircleOutline size={20} color="#7159c1" />
                   </button>
                 </div>
               </td>
